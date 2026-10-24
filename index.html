@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101813" />
+    <meta name="description" content="Froggy — a cozy home for your favorite games." />
+    <meta name="google-adsense-account" content="ca-pub-4386160713272293" />
+    <title>Froggy</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4386160713272293" crossorigin="anonymous"></script>
+    <link rel="icon" id="app-icon" href="/assets/froggy-mascot.png?v=2" type="image/png" />
+    <link rel="preconnect" href="http://127.0.0.1:4174" />
+    <link rel="stylesheet" href="/styles.css?v=12" />
+  </head>
+  <body data-accent="mint">
+    <header class="topbar">
+      <a class="brand" href="#/" aria-label="Froggy home">
+        <img class="brand-logo" src="/assets/froggy-mascot.png?v=2" alt="" />
+        <span class="brand-name">Froggy</span>
+      </a>
+
+      <label class="search-box" for="game-search">
+        <input id="game-search" type="search" placeholder="Search games and categories" autocomplete="off" />
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+      </label>
+
+      <div class="top-actions">
+        <button class="icon-button refresh-button" id="refresh-games" aria-label="Refresh games" title="Refresh games">
+          <svg class="heroicon heroicon-refresh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 0 0 4.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 0 1-15.357-2m15.357 2H15"></path></svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="toast-region" id="toast-region" aria-live="polite"></div>
+    <main id="app" class="app-main" tabindex="-1">
+    </main>
+    <script type="module" src="/app.js?v=13"></script>
+  </body>
+</html>
